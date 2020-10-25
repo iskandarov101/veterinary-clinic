@@ -681,8 +681,66 @@ pre {
   padding-top: 30px;
   width: 60%;
 }
+/* FEEDBACK */
 
-
+.feedback {
+  background-image: url("../img/feedback-bg.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 500px) 50px, -100px;
+  background-color: #333;
+  display: flex;
+  margin-bottom: 247px;
+}
+.feedback-map {
+  display: block;
+  object-fit: contain;
+}
+.feedback-box {
+  width: 375px;
+  margin-left: 166px;
+  padding: 62px 0;
+}
+.feedback-title {
+  font-size: 48px;
+  line-height: 62px;
+  color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 14px;
+}
+.feedback-text {
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  margin: 0;
+  margin-bottom: 28px;
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.feedback-input {
+  width: 100%;
+  padding: 13px 22px;
+  margin-bottom: 14px;
+  outline: none;
+}
+.feedback-area {
+  width: 100%;
+  height: 165px;
+  padding: 13px 22px;
+  margin-bottom: 30px;
+  outline: none;
+}
+.feedback-btn {
+  display: inline-block;
+  padding: 14px 50px;
+  background-color: #FFBD54;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
 
 
 
