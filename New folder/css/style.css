@@ -37,6 +37,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   background-image: url("../img/bg.png");
+  background-color: #f9f9f9;
   color: #000;
 }
 img {
@@ -252,6 +253,7 @@ pre {
   line-height: 64px;
   margin: 0;
   margin-bottom: 29px;
+  color: #333;
 }
 .hero-title-blue {
   display: block;
@@ -322,12 +324,194 @@ pre {
 .services {
   margin-top: 85px;
 }
-.services-contaier  {
+.services-container  {
   position: relative;
 }
-.wrapper
-
-
+.wrapper {
+  padding: 0 44px;
+}
+.services-title {
+  font-size: 48px;
+  line-height: 54px;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 80px;
+  color: #333;
+}
+.services-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.services-item + .services-item { 
+  margin-left: 12.8px;
+}
+.services-item:hover {
+  opacity: .8;
+}
+.services-item:active {
+  opacity: .6;
+}
+.services-active::after {
+  content: "";
+  top: 201px;
+  left: 0;
+  width: 193px;
+  height: 20px;
+  position: absolute;
+  background-color: #fff;
+  display: inline-block;
+}
+.services-next {
+  display: none;
+}
+.services-link   {
+  padding: 32px;
+  background-color: #fff;
+  display: inline-block;
+  width: 190px;
+  height: 201px;
+  text-align: center;
+  border-radius: 5px 5px 0px 0px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333;
+}
+.services-link::before {
+  content: "";
+  width: 78px;
+  height: 78px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.doctor-girl::before {
+  background-image: url("../img/doctor-girl.png");
+}
+.dog-girl::before {
+  background-image: url("../img/dog-girl.png");
+}
+.hirurg::before {
+  background-image: url("../img/small-dog.png");
+}
+.dermotolog::before {
+  background-image: url("../img/big-dog.png");
+}
+.lab::before {
+  background-image: url("../img/veterinary.png");
+}
+.oftamotolog::before {
+  background-image: url("../img/dogs.png");
+}
+.card-detail {
+  position: absolute;
+  top: calc(100% + 14px); 
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 0px 5px 5px 5px;
+  padding: 42px 35px;
+}
+.card-detail-img {
+  border-radius: 5px;
+}
+.details {
+  width: 500px;
+  margin: 0 auto;
+}
+.details-title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 20px;
+  margin: 0;
+  margin-bottom: 22px;
+}
+.details-text {
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  margin: 0;
+  margin-bottom: 9px;
+}
+.details-text-last {
+  margin-bottom: 35px;
+}
+.details-links {
+  display: flex;
+}
+.details-link {
+  text-decoration: none;
+  vertical-align: baseline;
+  padding: 13px 36px;
+  color: #fff;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+.details-link::before {
+  content: "";
+  width: 21px;
+  height: 21px;
+  display: inline-block;
+  background-size: 21px 21px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-right: 7px;
+}
+.first-link {
+  margin-right: 21px;
+  background-color: #FFBD54;
+}
+.first-link:hover {
+  background-color: #333;
+  color: #FFBD54;
+}
+.first-link:active {
+  opacity: 0.6;
+}
+.first-link::before {
+  background-image: url("../img/money.svg");
+}
+.right-side-link::before {
+  background-image: url("../img/document.svg");
+}
+.right-side-link {
+  background-color: #333;
+}
+.service-btn {
+  border: none;
+  background-color: transparent;
+  position: absolute; 
+  top: 230px;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 14px 26px;
+  background-position: center center;
+  border-radius: 5px;
+}
+.service-btn:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+.service-btn:active {
+  opacity: .7;
+}
+.service-btn__prev {
+  left: 0;
+  background-image: url("../img/arrow-left.svg");
+}
+.service-btn__next {
+  right: 0;
+  background-image: url("../img/arrow-right.svg");
+}
 
 
 
