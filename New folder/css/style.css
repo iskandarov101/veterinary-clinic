@@ -138,6 +138,9 @@ pre {
   line-height: 18px;
   margin-left: 98px;
 }
+.working-weekend {
+  margin-left: 17px;
+}
 .site-header__navbar {
   background-color: #fff;
   padding: 17px 0;
@@ -191,7 +194,6 @@ pre {
   height: 4px;
   background-color: #f4ffad;
   position: absolute;
-  display: inline-block;
   bottom: 0;
   left: 0;
   opacity: 0;
@@ -552,9 +554,11 @@ pre {
   border-color: #DC4D41;
   color:#DC4D41;
 }
+
 .follow-input:not(:placeholder-shown):valid {
   color: #333;
 }
+
 .follow-btn {
   display: inline-block;
   border: none;
