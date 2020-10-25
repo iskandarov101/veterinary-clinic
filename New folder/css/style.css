@@ -384,7 +384,7 @@ pre {
 }
 .services-link::before {
   content: "";
-  width: 78px;
+  width: 77px;
   height: 78px;
   display: inline-block;
   background-repeat: no-repeat;
