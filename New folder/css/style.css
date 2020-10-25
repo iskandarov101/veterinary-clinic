@@ -741,28 +741,123 @@ pre {
   outline: none;
   cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* FOOTER */
+.site-footer {
+  background-color: #DBDBDB;
+  padding-top: 54px;
+  padding-bottom: 23px;
+}
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  list-style-type: none; 
+}
+.footer-logo {
+  display: block;
+}
+.footer-logo:hover {
+  opacity: 0.8;
+}
+.footer-logo:active {
+  opacity: 0.6;
+}
+.submenu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.submenu-item + .submenu-item {
+  margin-top: 14px;
+}
+.submenu-link {
+  font-weight: 500;
+  font-size: 16px;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 21px;
+  color: #333333;
+}
+.submenu-link:hover {
+  color: #FFBD54;
+}
+.submenu-link:active {
+  color: rgba(51, 51, 51, 0.7);
+}
+.footer-numbers {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer-numbers-icon {
+  position: relative;
+}
+.footer-numbers-icon::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-size: 16px;
+  display: inline-block;
+  background-image: url(../img/phone-icon.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -30px;
+  top: 0;
+}
+.footer-address {
+  align-items: flex-start;
+}
+.footer-time {
+  align-items: flex-start;
+}
+.footer-work {
+  margin: 0;
+  margin-left: 70px;
+}
+.footer-bottom {
+  text-align: right;
+  font-size: 14px;
+  line-height: 18px;
+  color: #5C5C5C;
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+.hero {
+  background-image: url(../img/hero-bg-pets@2x.png),
+  url(../img/hero-bg-parrot@2x.png);
+}
+.intro {
+  background-image: url(../img/intro-left@2x.png), url(../img/intro-right@2x.png);
+}
+.doctor-girl::before {
+  background-image: url(../img/doctor-girl@2x.png);
+}
+.dog-girl::before {
+  background-image: url(../img/dog-girl@2x.png);
+}
+.hirurg::before {
+  background-image: url(../img/small-dog@2x.png);
+}
+.dermotolog::before {
+  background-image: url(../img/big-dog@2x.png);
+}
+.lab::before {
+  background-image: url(../img/veterinary@2x.png);
+}
+.oftamotolog::before {
+  background-image: url(../img/dogs@2x.png);
+}
+.follow {
+  background-image: url(../img/follow-bg@2x.png);
+}
+.feedback {
+  background-image: url(../img/feedback-bg@2x.png);
+}
+}
