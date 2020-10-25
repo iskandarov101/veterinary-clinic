@@ -61,20 +61,180 @@ img {
   margin-right: auto;
   }
 pre {
-  
+  margin: 0;
 }
 
 /* SITEHEADER */
-
-
-
-
-
-
-
-
-
-
+.header-top {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+}
+.address-site {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+.phone-numbers {
+  display: flex;
+  align-items: center;
+  margin-left: 106px;
+}
+.phone-numbers::before,
+.working-time::before,
+.address-site::before {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  margin-right: 9px;
+  content: "";
+}
+.phone-numbers::before {
+  background-image: url("../img/phone-icon.svg");
+}
+.working-time::before  {
+  background-image: url("../img/time-icon.svg");
+}
+.address-site::before {
+  background-image: url("../img/home-icon.svg");
+}
+.phone-number {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333;
+}
+.phone-number:hover {
+  color: #ffbd54;
+}
+.phone-number:active {
+  opacity: .6;
+  color: #333;
+}
+.circle {
+  width: 4px;
+  height: 4px;  
+  background-color: #ffdb54;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 9px;
+}
+.working-time {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 0;
+  line-height: 18px;
+  margin-left: 98px;
+}
+.site-header__navbar {
+  background-color: #fff;
+  padding: 17px 0;
+}
+.site-header__container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.logotip {
+  display: inline-block;
+  vertical-align: baseline;
+  margin-right: 110px;
+  position: absolute;
+}
+.logotip:hover {
+  opacity: 0.8;
+}
+.logotip:active {
+  opacity: 0.6;
+}
+.logo-img {
+  display: block;
+}
+/* NAVBAR */
+.navbar {
+  margin-left: 320px;
+}
+.navbar-list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.navbar-items {
+  margin-right: 55px;
+}
+.navbar-items:last-child {
+  margin-right: 0;
+}
+.navbar-link {
+  text-decoration: none;
+  color: #333;
+  position: relative;
+  display: flex;
+}
+.navbar-link::after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: #f4ffad;
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+}
+.navbar-link:hover::after {
+  opacity: 1;
+}
+.navbar-link:active {
+  opacity: 0.6;
+}
+.ask-query {
+  text-decoration: none;
+  color: #333;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+.ask-query::before {
+  content: "";
+  width: 23px;
+  height: 23px;
+  display: inline-block;
+  background-image: url("../img/pet-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 23px 21px;
+  margin-right: 9px;
+}
+.active {
+  display: flex;
+  align-items: center;
+}
+.active::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-image: url("../img/active-icon.svg");
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position: center center;
+  margin-right: 10px;
+}
+  
 
 
 
