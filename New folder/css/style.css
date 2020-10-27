@@ -933,7 +933,9 @@ pre {
 .even-link:hover {
   background-color: #000;
 }
-
+.service-footer {
+  background-color: #fff;
+}
 .doctor::before {
   background-image: url("../img/doctor-girl.png");
 }
