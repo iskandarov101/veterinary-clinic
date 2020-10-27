@@ -804,7 +804,7 @@ pre {
   height: 20px;
   background-size: 16px;
   display: inline-block;
-  background-image: url(../img/phone-icon.svg);
+  background-image: url("../img/phone-icon.svg");
   background-repeat: no-repeat;
   position: absolute;
   left: -30px;
@@ -824,8 +824,155 @@ pre {
   text-align: right;
   font-size: 14px;
   line-height: 18px;
-  color: #5C5C5C;
+  color:
+   #5C5C5C;
 }
+
+/* START SETVICE PAGE */
+
+.main {
+  padding: 0;
+  margin: 0;
+  font-family: "Futura PT", serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-image: url("../img/bg.png");
+  background-color:  #f5eeee;;
+  color: #000;
+}
+
+.intro {
+  padding-bottom: 80px ;
+  background-image: url("../img/services-intro.png");
+  background-repeat: no-repeat;
+  background-position:  right top -20px;
+  background-size: 435px;
+}
+.intro__title {
+  margin: 0;
+  padding: 0;
+  padding-top: 117px;
+  margin-left: 175px;
+  font-family: "Futura PT" serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333;
+}
+.intro__text {
+  width: 447px;
+  margin-left: 176px;
+  font-family: "Futura PT" serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #949494;
+}
+.categories__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.categories__items {
+  width: 300px;
+  height: 420px;
+  list-style: none;
+  background-color: #fff;
+  margin-bottom: 34px;
+  padding-top: 44px;
+  padding-left: 53px;
+}
+.categories__items:hover  {
+  box-shadow: 0px 0px 10px 7px #dbdbdb;
+}
+.categories__title  {
+  font-family: "Futura PT" serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 34px;
+  color: #333;
+  margin: 0;
+  padding: 0;
+} 
+.categories__title::before {
+  content: "";
+  width: 84px;
+  height: 78px;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.categories__text {
+  margin: 0;
+  padding: 0;
+  margin-top: 14px;
+}
+.categories__link{
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 41px;
+  padding: 15px 30px;
+  background-color: #FFBD54;
+  color: #fff;
+  font-family: "Futura PT" serif;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 21px;
+}
+.even-link {
+  background-color: #78C0DE;
+}
+.categories__link:hover,
+.even-link:hover {
+  background-color: #000;
+}
+
+.doctor::before {
+  background-image: url("../img/doctor-girl.png");
+}
+.dog-girl::before {
+  background-image: url("../img/dog-girl.png");
+}
+.hirurg::before {
+  background-image: url("../img/small-dog.png");
+}
+.dermotolog::before {
+  background-image: url("../img/big-dog.png");
+}
+.lab::before {
+  background-image: url("../img/veterinary.png");
+}
+.oftamotolog::before {
+  background-image: url("../img/dogs.png");
+}
+.uzi::before {
+  background-image: url("../img/uzi.png");
+}
+.shpris::before {
+  background-image: url("../img/shpris.png");
+}
+.list::before {
+  background-image: url("../img/list.png");
+}
+.vaksina::before {
+  background-image: url("../img/vaksina.png");
+}
+.teeth::before {
+  background-image: url("../img/teeth.png");
+}
+.case::before {
+  background-image: url("../img/case.png");
+}
+
+
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
