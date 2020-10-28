@@ -1366,21 +1366,15 @@ pre {
   margin-right: 6px;
 }
 
-
-
-
-
-
-
-
-/* .about__container {
-  margin-left: 175px;
+.about__container {
+  margin-left: 120px;
+  margin-top: 63px;
 }
 .about__wrapper {
   background-color: #dbdbdb;
-  max-width: 752px;
-  padding-left: 63px;
-  padding-right: 112px;
+  max-width: 650px;
+  padding-left: 23px;
+  padding-right: 24px;
   padding-top: 30px;
   padding-bottom: 75px;
 }
@@ -1409,7 +1403,6 @@ pre {
   display: inline-block;
   background-image: url("../img/horizontal-pet.png");
   background-position: top center;
-  
 }
 .about__time  span {
   font-family: "Futura PT" serif;
@@ -1421,6 +1414,11 @@ pre {
   text-transform: uppercase;
   color: #78C0DE;
 }
+.about__box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 .about__box--title {
   margin-top: 12px;
   font-family: "Futura PT" serif;
@@ -1430,6 +1428,19 @@ pre {
   line-height: 22px;
   color: #333333;
 }
+.about__btn {
+  border: none;
+  width: 16px;
+  height: 12px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../img/arrow-left.svg");
+}
+.about__btn:hover {
+  cursor: pointer;
+
+}
 .about__box--text {
   margin-top: 23px;
   font-family:" Futura PT" serif;
@@ -1438,7 +1449,7 @@ pre {
   font-size: 16px;
   line-height: 20px;
   color: #949494;
-} */
+} 
 
 
 
@@ -1481,5 +1492,9 @@ only screen and (                min-resolution: 2dppx) {
 }
 .feedback {
   background-image: url(../img/feedback-bg@2x.png);
+}
+.intro__bg  {
+  background-image: url("../img/kisspng-cat-kitten-dog-veterinarian-veterinary-medicine-cat-wearing-a-stethoscope-5aa8950c1229b5\ 1@2x.png");
+  
 }
 }
