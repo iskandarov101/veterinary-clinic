@@ -1252,6 +1252,58 @@ pre {
   line-height: 21px;
   color: #333333;
 }
+.container__pets {
+  background-image: url("../img/pets-Group\ .png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  
+}
+
+.map__title {
+  display: block;
+  justify-content: center;
+  font-family: "Futura PT" serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 62px;
+  color: #333333;
+  margin: 0 500px;
+  padding-top: 200px;
+}
+.map__title::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 112px;
+  height: 112px;
+  display: block;
+  background-image: url("../img/Object.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 100px;
+}
+.maps__location {
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 105px;
+}
+.map-location {
+  width: 847px;
+  height: 466px;
+  margin-top: -540px;
+}
+.map__building {
+  height: 466px;
+  width: auto;
+}
+
+
+
+
+
 
 
 
