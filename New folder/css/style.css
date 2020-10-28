@@ -1292,17 +1292,153 @@ pre {
 }
 .map-location {
   width: 847px;
-  height: 466px;
-  margin-top: -540px;
+  height: 763px;
+  margin-top: -260px;
 }
 .map__building {
   height: 466px;
   width: auto;
 }
 
+/* ABOUT STARTED HERE */
+
+.about__intro {
+  margin-left: 120px;
+  width: 447px;
+}
+.intro__bg {
+  background-image: url("../img/kisspng-cat-kitten-dog-veterinarian-veterinary-medicine-cat-wearing-a-stethoscope-5aa8950c1229b5\ 1.png");
+  background-repeat: no-repeat;
+  background-position: 810px 60px;
+  background-size: 569px 466px;
+}
+.about__title {
+  font-family: "Futura PT" serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333333;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 110px;
+  display: inline-block;
+}
+.about__text {
+  font-family: "Futura PT" serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  margin: 0;
+  margin-top: 27px;
+  margin-bottom: 35px;
+}
+.about__link {
+  text-decoration: none;
+  font-family: "Futura PT" serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background-color: #78C0DE;
+  border-radius: 3px;
+  padding: 15px 39px;
+  display: inline-flex;
+  transition: transform .3s ease,
+    background-color  .3s ease;
+}
+.about__link:hover {
+  transform: scale(.95);
+  background-color: #949494;
+}
+.about__link::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 21px;
+  height: 21px;
+  display: inline-block;
+  background-image: url("../img/document-list.svg");
+  background-position: center center;
+  margin-right: 6px;
+}
 
 
 
+
+
+
+
+
+/* .about__container {
+  margin-left: 175px;
+}
+.about__wrapper {
+  background-color: #dbdbdb;
+  max-width: 752px;
+  padding-left: 63px;
+  padding-right: 112px;
+  padding-top: 30px;
+  padding-bottom: 75px;
+}
+.about__time,
+.about__box--title,
+.about__box--text {
+  margin: 0;
+  padding: 0;
+}
+.about__time  time{
+  margin-right: 28px;
+  font-family: "Futura PT" serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #333333;
+}
+.about__time  time::before {
+  margin-right: 15px;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 22px;
+  height: 20px;
+  display: inline-block;
+  background-image: url("../img/horizontal-pet.png");
+  background-position: top center;
+  
+}
+.about__time  span {
+  font-family: "Futura PT" serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #78C0DE;
+}
+.about__box--title {
+  margin-top: 12px;
+  font-family: "Futura PT" serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  color: #333333;
+}
+.about__box--text {
+  margin-top: 23px;
+  font-family:" Futura PT" serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+} */
 
 
 
