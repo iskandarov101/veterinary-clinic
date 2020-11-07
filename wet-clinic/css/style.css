@@ -829,7 +829,7 @@ pre {
 }
 
 /* CONTACT */
-.main {
+.demo {
   padding-top: 118px;
   margin-top: 18px;
   background-image: url("../img/dog-kiss-shar-.png");
@@ -920,12 +920,80 @@ pre {
 }
 .calendar::before {
   background-image: url("../img/calendar.png");
-
 }
 .phone::before {
   background-image: url("../img/phone.png");
-
 }
+
+/* LOCATION */
+.location {
+  margin-top: 130px;
+  background-image: url("../img/pets-Group\ .png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 934px 329px;
+}
+.location__title {
+  width: 348px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 62px;
+  color: #333333;
+  margin: 0;
+  padding-top: 130px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  
+}
+.location__title::before {
+  content: "";
+  display: block;
+  margin: 0 auto 31px auto;
+  width: 105px;
+  height: 105px;
+  background-image: url("../img/Object.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.location__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding-bottom: 200px;
+}
+.kissing-pet {
+  position: relative;
+  z-index: 1;
+}
+.kissing-pet::before {
+  content: "";
+  width: 443px;
+  height: 342px;
+  position: absolute;
+  top: -67%;
+  left: 30px;
+  z-index: 10;
+  background-image: url("../img/kisspng-pug-puppy.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
