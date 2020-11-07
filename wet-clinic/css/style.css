@@ -983,6 +983,126 @@ pre {
   background-size: contain;
 }
 
+  /* FAQ */
+.main__content {
+  background-image: url("../img/carrot.png");
+  background-size: 554px 540px;
+  background-position: calc(50% + 420px) 1150px;
+  background-repeat: no-repeat;
+
+}
+.faq {
+  padding: 115px;
+  background-image: url("../img/kisspng-cat-kitten-dog-veterinarian-veterinary-medicine-cat-wearing-a-stethoscope-5aa8950c1229b5\ 1.png");
+  background-repeat: no-repeat;
+  background-size: 569px 466px;
+  background-position: calc(50% + 420px) 20px;
+}
+.faq__heading {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 64px;
+  margin: 0;
+  color: #333333;
+}
+.faq__text {
+  width: 447px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  color: #949494;
+  padding-top: 27px;
+  padding-bottom: 35px;
+}
+.faq__link {
+  text-decoration: none;
+  background: #78C0DE;
+  color: #fff;
+  border-radius: 3px;
+  padding: 14px 38px;
+  text-align: center;
+  display: flex;
+  width: 201px;
+}
+.faq__link--icon::before {
+  content: "";
+  display: inline-flex;
+  margin-right: 6px;
+  width: 21px;
+  height: 21px;
+  background-image: url("../img/document-list.svg");
+  background-repeat: no-repeat; 
+  background-size: contain;
+  background-position: center center;
+}
+
+.faq__list {
+  list-style-type: none;
+  padding: 0;
+  padding-top: 97px;
+}
+.faq__item {
+  width: 752px;
+  margin: 10px 0;
+  background-color: #f3f3f3;
+  padding: 28px 60px;
+}
+.faq__datetime {
+  display: flex;
+  align-items: center;
+}
+.class__datetime--icon::before {
+  content: "";
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  background-image: url("../img/pet-icon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  margin-right: 10px;
+}
+.class__datetime--icon:only-child(even)::before {
+  content: "";
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  background-image: url("../img/pet-icon-blue.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  margin-right: 10px;
+}
+.faq__datetime-description {
+  color: #3D9CEA;
+  margin-left: 28px;
+}
+.faq__title {
+  margin: 0;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  display: flex;
+  color: #333333;
+  width: 539px;
+}
+.faq__title-icon::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 16px;
+  background-image: url("../img/uchburchak.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
 
 
 
