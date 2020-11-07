@@ -829,6 +829,104 @@ pre {
 }
 
 /* CONTACT */
+.main {
+  padding-top: 118px;
+  margin-top: 18px;
+  background-image: url("../img/dog-kiss-shar-.png");
+  background-repeat: no-repeat;
+  background-size: 487px 548px;
+  background-position: right center;
+}
+.demo__title {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333333;
+  margin: 0;
+  margin-left: 110px;
+  margin-bottom: 27px;
+}
+.demo__text {
+  width: 447px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  margin: 0;
+  margin-left: 110px;
+}
+.demo__list {
+  width: 50%;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  margin-left: 110px;
+  margin-top: 110px;
+}
+.demo__address {
+  margin: 0;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+.demo__work {
+  margin: 0;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  margin: 12px 0;
+}
+.demo__phone {
+  display: block;
+  text-decoration: none;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+}
+.phone-box {
+  margin: 9px 0;
+}
+.demo__item::before {
+  content: "";
+  display: inline-block;
+  width: 73px;
+  height: 73px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+.map::before {
+  background-image: url("../img/iphone-dog.png");
+  margin-bottom: 30px;
+}
+.calendar::before {
+  background-image: url("../img/calendar.png");
+
+}
+.phone::before {
+  background-image: url("../img/phone.png");
+
+}
+
 
 
 
