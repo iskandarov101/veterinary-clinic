@@ -1229,6 +1229,106 @@ pre {
   background-size: contain; 
   background-position: center center;
 }
+/* FORM */
+.form {
+  width: 100%;
+  height: 636px;
+  background-image: url("../img/Group\ bg-image.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 150px;
+}
+.form__wrapper {
+  display: flex;
+  margin-left: 177px;
+  padding-top: 100px; 
+}
+.form__title {
+  max-width: 276px;
+  font-family:" Futura PT";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 62px;
+  color: #FFFFFF;
+}
+.form__text {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.formm {
+  margin-left: 61px;
+}
+
+.form__input {
+  display: block;
+  width: 335px;
+  height: 50px;
+  margin-top: 14px;
+  border: none;
+  padding-left: 22px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #949494;
+  background: #FFFFFF;
+  border-radius: 0px;
+}
+
+.form__area {
+  width: 335px;
+  height: 165px;
+  display: block;
+  margin-top: 14px;
+  margin-bottom: 26px;
+  border: none;
+  padding: 15px;
+  color: #949494;
+}
+.form__btn {
+  border: none;
+  padding: 15px 50px;
+  background-color: #000;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: background-color  .4s ease,
+      transform .4s ease;
+}
+.form__btn:hover {
+  background-color: #FFBD54;
+  color: #000;
+  transform: scale(.97);
+  border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
